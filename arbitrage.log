@@ -1,1 +1,64 @@
-2025-01-01 19:29 - INFO - Email sent successfully!
+2025-01-02 10:19:57 - INFO - Started scraping topsport
+2025-01-02 10:19:58 - INFO - Scraped 6 NBA matches
+2025-01-02 10:19:59 - INFO - Scraped 20 Eurolyga matches
+2025-01-02 10:20:00 - INFO - Scraped 18 UEFA matches
+2025-01-02 10:20:01 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-02 10:20:02 - INFO - Scraped 16 NFL matches
+2025-01-02 10:20:02 - INFO - Scraped 12 NHL matches
+2025-01-02 10:20:03 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:20:03 - INFO - Started scraping 7bet
+2025-01-02 10:20:03 - INFO - Scraped 6 Smiginis matches
+2025-01-02 10:20:03 - INFO - Scraped 9 Smiginis matches
+2025-01-02 10:20:04 - INFO - Scraped 18 Smiginis matches
+2025-01-02 10:20:04 - INFO - Scraped 8 Smiginis matches
+2025-01-02 10:20:04 - INFO - Scraped 16 Smiginis matches
+2025-01-02 10:20:04 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:20:04 - INFO - Started scraping betsafe
+2025-01-02 10:20:13 - INFO - Scraped 6 NBA matches
+2025-01-02 10:20:22 - INFO - Scraped 20 Eurolyga matches
+2025-01-02 10:20:33 - INFO - Scraped 18 UEFA matches
+2025-01-02 10:20:45 - INFO - Scraped 36 UEFA Konf. matches
+2025-01-02 10:20:54 - INFO - Scraped 16 NFL matches
+2025-01-02 10:21:04 - INFO - Scraped 26 NHL matches
+2025-01-02 10:21:10 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:21:10 - INFO - Started merging dataframes
+2025-01-02 10:21:11 - INFO - Merged 145 matches
+2025-01-02 10:21:11 - INFO - Started checking arbitrages
+2025-01-02 10:21:11 - INFO - Found arbitrages for 1 matches
+2025-01-02 10:21:11 - INFO - Starting database connection
+2025-01-02 10:21:13 - INFO - Inserted 141 new matches to 'matches' table
+2025-01-02 10:21:13 - INFO - Inserted 145 new rows to 'scraped_data' table
+2025-01-02 10:21:13 - INFO - Found 1 matches with arbitrage
+2025-01-02 10:21:13 - INFO - 1 matches sent successfully!
+2025-01-02 10:42:05 - INFO - Started scraping topsport
+2025-01-02 10:42:05 - INFO - Scraped 6 NBA matches
+2025-01-02 10:42:07 - INFO - Scraped 20 Eurolyga matches
+2025-01-02 10:42:07 - INFO - Scraped 18 UEFA matches
+2025-01-02 10:42:08 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-02 10:42:09 - INFO - Scraped 16 NFL matches
+2025-01-02 10:42:10 - INFO - Scraped 12 NHL matches
+2025-01-02 10:42:10 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:42:10 - INFO - Started scraping 7bet
+2025-01-02 10:42:11 - INFO - Scraped 6 Smiginis matches
+2025-01-02 10:42:11 - INFO - Scraped 9 Smiginis matches
+2025-01-02 10:42:11 - INFO - Scraped 18 Smiginis matches
+2025-01-02 10:42:11 - INFO - Scraped 8 Smiginis matches
+2025-01-02 10:42:11 - INFO - Scraped 16 Smiginis matches
+2025-01-02 10:42:11 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:42:11 - INFO - Started scraping betsafe
+2025-01-02 10:42:18 - INFO - Scraped 6 NBA matches
+2025-01-02 10:42:27 - INFO - Scraped 20 Eurolyga matches
+2025-01-02 10:42:37 - INFO - Scraped 18 UEFA matches
+2025-01-02 10:42:49 - INFO - Scraped 36 UEFA Konf. matches
+2025-01-02 10:42:58 - INFO - Scraped 16 NFL matches
+2025-01-02 10:43:08 - INFO - Scraped 26 NHL matches
+2025-01-02 10:43:14 - INFO - Scraped 2 Smiginis matches
+2025-01-02 10:43:14 - INFO - Started merging dataframes
+2025-01-02 10:43:15 - INFO - Merged 145 matches
+2025-01-02 10:43:15 - INFO - Started checking arbitrages
+2025-01-02 10:43:15 - INFO - Found arbitrages for 1 matches
+2025-01-02 10:43:15 - INFO - Starting database connection
+2025-01-02 10:43:17 - INFO - Inserted 0 new matches to 'matches' table
+2025-01-02 10:43:17 - INFO - Inserted 145 new rows to 'scraped_data' table
+2025-01-02 10:43:17 - INFO - Found 0 matches with arbitrage
+2025-01-02 10:43:17 - INFO - No new arbitrages found.

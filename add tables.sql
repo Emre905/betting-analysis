@@ -5,7 +5,8 @@ CREATE TABLE matches (
     team2 VARCHAR(255) NOT NULL,
     league VARCHAR(255),
     match_date DATETIME NOT NULL,
-    draw_possible TINYINT(1) DEFAULT 0
+    draw_possible TINYINT(1) DEFAULT 0,
+    best_arbitrage FLOAT
 );
 
 CREATE TABLE scraped_data (
@@ -26,4 +27,3 @@ CREATE TABLE scraped_data (
     odd2_7bet FLOAT,
     FOREIGN KEY (match_id) REFERENCES matches(match_id) ON DELETE CASCADE -- Maintain one-to-many relationship
 );
-
