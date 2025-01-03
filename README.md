@@ -16,5 +16,8 @@ Currently, the targeted websites are **Topsport**, **Betsafe**, and **7Bet**.
 
 ### 4. Optional: Database Integration
 - Upload the analyzed data to a database for:
-  - Historical data storage.
-  - Advanced analytics and trend identification.
+- Historical data storage.
+- Advanced analytics and trend identification.
+
+### 5. Optional: Sending Mails
+- Send results of new arbitrage matches as mail
