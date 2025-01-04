@@ -12,12 +12,12 @@ Currently, the targeted websites are **Topsport**, **Betsafe**, and **7Bet**.
 
 ### 3. Arbitrage Analysis
 - Check the merged data for arbitrage bets.
-- Record the recommended stakes and the corresponding bookmakers for each bet.
+- Record the recommended stakes (as integers) and the corresponding bookmakers for each bet.
 
 ### 4. Optional: Database Integration
 - Upload the analyzed data to a database for:
-- Historical data storage.
-- Advanced analytics and trend identification.
+  - Historical data storage.
+  - Advanced analytics and trend identification.
 
 ### 5. Optional: Sending Mails
-- Send results of new arbitrage matches as mail
+- Send results of new arbitrage matches as mail.
