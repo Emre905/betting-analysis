@@ -2,6 +2,7 @@ import logging
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
+from ratelimit import limits, sleep_and_retry
 from datetime import datetime, timedelta
 from unidecode import unidecode
 import pandas as pd
@@ -17,7 +18,7 @@ Create a single DataFrame with all matches.
 Save to database
 Send arbitraged matches as mail
 
-Current runtime: ~5 seconds
+Current runtime: ~5 seconds (without rate_limit)
 """
 
 logging.basicConfig(
@@ -32,21 +33,17 @@ logging.basicConfig(
 # Suppress mysql.connector logs
 logging.getLogger("mysql.connector").setLevel(logging.WARNING)
 
-async def scrape_topsport(url, session):
-    try:
-        async with session.get(url) as response:
-            if response.status == 200:
-                html = await response.text()
-                soup = BeautifulSoup(html, 'lxml')
 
-                # Find all events
-                events = soup.find_all('div', {'class': 'js-prelive-event-row'})
-                matches = read_topsport(events)
-                return matches
-            else:
-                logging.warning(f"Failed to fetch {url}: HTTP {response.status}")
-    except aiohttp.ClientError as e:
-        logging.warning(f"Request failed for {url}: {e}")
+# Limit requests speed to 1 calls per second
+CALLS = 1
+RATE_LIMIT = 1
+
+@sleep_and_retry
+@limits(calls=CALLS, period=RATE_LIMIT)
+def check_limit():
+    ''' Empty function just to check for calls to API '''
+    return
+
 
 def read_topsport(events):
     today = datetime.today()
@@ -191,6 +188,47 @@ def read_optibet(data):
             continue
     return matches
 
+async def scrape_topsport(url, session):
+    check_limit()
+    try:
+        async with session.get(url) as response:
+            if response.status == 200:
+                html = await response.text()
+                soup = BeautifulSoup(html, 'lxml')
+
+                # Find all events
+                events = soup.find_all('div', {'class': 'js-prelive-event-row'})
+                matches = read_topsport(events)
+                return matches
+            else:
+                logging.warning(f"Failed to fetch {url}: HTTP {response.status}")
+    except aiohttp.ClientError as e:
+        logging.warning(f"Request failed for {url}: {e}")
+
+async def scrape_bookmaker(url, session, bookmaker, league):
+    check_limit()
+    try:
+        config = bookmaker_configs.get(bookmaker)
+        headers = config["headers"]
+        params = config["params"]
+        read_bookmaker = config["reader"]
+
+        # Perform the request
+        async with session.get(url, headers=headers, params=params) as response:
+            if response.status == 200:
+                data = await response.json()
+
+                if bookmaker == "7bet": # 7bet needs number of odds as parameter
+                    number_of_odds = league_list_7bet[league][0]
+                    matches = read_7bet(data, number_of_odds)
+                else:
+                    matches = read_bookmaker(data)
+                return matches
+            else:
+                logging.warning(f"Error: {response.status}")
+
+    except aiohttp.ClientError as e:
+        logging.warning(f"Request failed for {url}: {e}")
 
 async def scrape_all_sites(urls, leagues, bookmaker, session):
     logging.info(f"Started scraping {bookmaker}")
@@ -216,29 +254,6 @@ async def scrape_all_sites(urls, leagues, bookmaker, session):
             logging.info(f"No matches found in {league}")
     return all_matches
 
-async def scrape_bookmaker(url, session, bookmaker, league):
-    try:
-        config = bookmaker_configs.get(bookmaker)
-        headers = config["headers"]
-        params = config["params"]
-        read_bookmaker = config["reader"]
-
-        # Perform the request
-        async with session.get(url, headers=headers, params=params) as response:
-            if response.status == 200:
-                data = await response.json()
-
-                if bookmaker == "7bet": # 7bet needs number of odds as parameter
-                    number_of_odds = league_list_7bet[league][0]
-                    matches = read_7bet(data, number_of_odds)
-                else:
-                    matches = read_bookmaker(data)
-                return matches
-            else:
-                logging.warning(f"Error: {response.status}")
-
-    except aiohttp.ClientError as e:
-        logging.warning(f"Request failed for {url}: {e}")
 
 async def main(urls, leagues, bookmaker):
     async with aiohttp.ClientSession() as session:
