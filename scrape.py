@@ -528,7 +528,6 @@ def round_stakes(odds: list, max_stake: int = 100) -> dict:
     return good_stakes
 
     
-arbitrage_list = []
 
 def display_result(row_index, match, odds, bookmaker_odds):
     # For displaying bookmakers, define dictionary
@@ -808,6 +807,7 @@ if __name__ == "__main__":
         'optibet': df_optibet,
     }
 
+    arbitrage_list = []
     # Merge all dataframes to one
     df = merge_dataframes(dataframes)
     # Sort the DataFrame by 'Date' and then by 'League' within each league
