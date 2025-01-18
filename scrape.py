@@ -335,7 +335,10 @@ headers_7bet = {
 
 # Betsafe scraping information
 url_beginning_betsafe = "https://pre-5o-sp.websbkt.com/cache/5/lt/lt/"
-url_ending_betsafe = "/prematch-by-tournaments.json?hidenseek=0cff8409d9b67762bcc09ac337184edbc3f2e963"
+# Hidenseek changes about once a week. update it from below line
+params_betsafe = {"hidenseek": "0cff8888409d9b67762bcc09ac337184edbc3f2e9634"}
+hidenseek_betsafe = "=".join(*params_betsafe.items())
+url_ending_betsafe = "/prematch-by-tournaments.json?" + hidenseek_betsafe
 
 leagues_betsafe = {
     # Basketball
@@ -357,8 +360,6 @@ leagues_betsafe = {
     }
 
 url_list_betsafe = {league : url_beginning_betsafe + url_body + url_ending_betsafe for league, url_body in leagues_betsafe.items()}
-
-params_betsafe = {"hidenseek": "0cff8409d9b67762bcc09ac337184edbc3f2e963"}
 
 headers_betsafe = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0",
@@ -557,7 +558,7 @@ def display_result(row_index, match, odds, bookmaker_odds):
     stakes = possible_stakes_dict.keys()
     profits = possible_stakes_dict.values()
 
-    result_str = f'Match: {' - '.join(match)}.\n'
+    result_str = f"Match: {' - '.join(match)}.\n"
 
     # Find which bookmakers have the odds
     selected_bookmakers = []
@@ -571,7 +572,7 @@ def display_result(row_index, match, odds, bookmaker_odds):
     # Display the bets with bookmakers
     for stake, profit in zip(stakes, profits):
         result_str += (
-            f'Bet {stake}, odds {[float(odd) for odd in odds]} in ({'-'.join(selected_bookmakers)}). '
+            f"Bet {stake}, odds {[float(odd) for odd in odds]} in ({'-'.join(selected_bookmakers)}). "
             f'Profit: {profit} ,\n'
         )
 

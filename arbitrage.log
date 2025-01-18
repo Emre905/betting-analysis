@@ -80,3 +80,281 @@
 2025-01-14 16:54:42 - INFO - Merged 233 matches
 2025-01-14 16:54:42 - INFO - Started checking arbitrages
 2025-01-14 16:54:42 - INFO - Found arbitrages for 0 matches
+2025-01-14 19:24:28 - INFO - Started scraping topsport
+2025-01-14 19:24:37 - INFO - Scraped 7 NBA matches
+2025-01-14 19:24:37 - INFO - Scraped 13 Eurolyga matches
+2025-01-14 19:24:37 - INFO - Scraped 18 UEFA matches
+2025-01-14 19:24:37 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-14 19:24:37 - INFO - Scraped 4 NFL matches
+2025-01-14 19:24:37 - INFO - Scraped 15 NHL matches
+2025-01-14 19:24:37 - INFO - Scraped 34 Tenisas matches
+2025-01-14 19:24:37 - INFO - Scraped 18 Tinklinis matches
+2025-01-14 19:24:37 - INFO - Started scraping 7bet
+2025-01-14 19:24:44 - INFO - Scraped 7 NBA matches
+2025-01-14 19:24:44 - INFO - Scraped 9 Eurolyga matches
+2025-01-14 19:24:44 - INFO - Scraped 18 UEFA matches
+2025-01-14 19:24:44 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-14 19:24:44 - INFO - Scraped 4 NFL matches
+2025-01-14 19:24:44 - INFO - Scraped 32 Tenisas matches
+2025-01-14 19:24:44 - INFO - Scraped 32 Tenisas (F) matches
+2025-01-14 19:24:44 - INFO - Scraped 7 Tinklinis matches
+2025-01-14 19:24:44 - INFO - Started scraping betsafe
+2025-01-14 19:24:53 - WARNING - Error: 500
+2025-01-14 19:24:54 - INFO - Scraped 7 NBA matches
+2025-01-14 19:24:54 - INFO - Scraped 18 Eurolyga matches
+2025-01-14 19:24:54 - INFO - Scraped 18 UEFA matches
+2025-01-14 19:24:54 - INFO - Scraped 4 NFL matches
+2025-01-14 19:24:54 - INFO - Scraped 13 NHL matches
+2025-01-14 19:24:54 - INFO - Scraped 12 AHL matches
+2025-01-14 19:24:54 - INFO - Scraped 29 Tenisas matches
+2025-01-14 19:24:54 - INFO - Scraped 32 Tenisas (F) matches
+2025-01-14 19:24:54 - INFO - No matches found in Tinklinis
+2025-01-14 19:24:54 - INFO - Started scraping optibet
+2025-01-14 19:25:02 - INFO - Scraped 7 NBA matches
+2025-01-14 19:25:02 - INFO - Scraped 9 Eurolyga matches
+2025-01-14 19:25:02 - INFO - Scraped 18 UEFA matches
+2025-01-14 19:25:02 - INFO - Scraped 4 NFL matches
+2025-01-14 19:25:02 - INFO - Scraped 13 NHL matches
+2025-01-14 19:25:02 - INFO - No matches found in AHL
+2025-01-14 19:25:02 - INFO - Scraped 13 Tinklinis matches
+2025-01-14 19:25:02 - INFO - Scraped 2 Tinklinis (F) matches
+2025-01-14 19:25:02 - INFO - Started merging dataframes
+2025-01-14 19:25:03 - INFO - Merged 237 matches
+2025-01-14 19:25:03 - INFO - Started checking arbitrages
+2025-01-14 19:25:03 - INFO - Found arbitrages for 1 matches
+2025-01-14 19:25:03 - INFO - Starting database connection
+2025-01-14 19:25:08 - INFO - Inserted 9 new matches to 'matches' table
+2025-01-14 19:25:08 - INFO - Inserted 237 new rows to 'scraped_data' table
+2025-01-14 19:25:08 - INFO - Found 1 new matches with arbitrage
+2025-01-14 19:25:08 - INFO - No arbitrage found.
+2025-01-18 19:32:22 - INFO - Started scraping topsport
+2025-01-18 19:32:30 - INFO - Scraped 6 NBA matches
+2025-01-18 19:32:30 - INFO - Scraped 14 Eurolyga matches
+2025-01-18 19:32:30 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:32:30 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:32:30 - INFO - Scraped 4 NFL matches
+2025-01-18 19:32:30 - INFO - Scraped 17 NHL matches
+2025-01-18 19:32:30 - INFO - Scraped 36 Tenisas matches
+2025-01-18 19:32:30 - INFO - Scraped 31 Tinklinis matches
+2025-01-18 19:32:30 - INFO - Started scraping 7bet
+2025-01-18 19:32:38 - INFO - Scraped 6 NBA matches
+2025-01-18 19:32:38 - INFO - No matches found in Eurolyga
+2025-01-18 19:32:38 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:32:38 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:32:38 - INFO - Scraped 4 NFL matches
+2025-01-18 19:32:38 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:32:38 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:32:38 - INFO - Scraped 6 Tinklinis matches
+2025-01-18 19:32:38 - INFO - Started scraping betsafe
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - WARNING - Error: 500
+2025-01-18 19:32:47 - INFO - Scraped 3 NBA matches
+2025-01-18 19:32:47 - INFO - No matches found in Eurolyga
+2025-01-18 19:32:47 - INFO - No matches found in UEFA
+2025-01-18 19:32:47 - INFO - No matches found in NFL
+2025-01-18 19:32:47 - INFO - Scraped 15 NHL matches
+2025-01-18 19:32:47 - INFO - No matches found in AHL
+2025-01-18 19:32:47 - INFO - No matches found in Tenisas
+2025-01-18 19:32:47 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:32:47 - INFO - No matches found in Tinklinis
+2025-01-18 19:32:47 - INFO - Started scraping optibet
+2025-01-18 19:32:55 - INFO - Scraped 6 NBA matches
+2025-01-18 19:32:55 - INFO - No matches found in Eurolyga
+2025-01-18 19:32:55 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:32:55 - INFO - Scraped 4 NFL matches
+2025-01-18 19:32:55 - INFO - Scraped 15 NHL matches
+2025-01-18 19:32:55 - INFO - Scraped 14 AHL matches
+2025-01-18 19:32:55 - INFO - Scraped 10 Tinklinis matches
+2025-01-18 19:32:55 - INFO - Scraped 3 Tinklinis (F) matches
+2025-01-18 19:32:55 - INFO - Started merging dataframes
+2025-01-18 19:32:56 - INFO - Merged 221 matches
+2025-01-18 19:32:56 - INFO - Started checking arbitrages
+2025-01-18 19:32:56 - INFO - Found arbitrages for 0 matches
+2025-01-18 19:32:56 - INFO - Starting database connection
+2025-01-18 19:33:04 - INFO - Inserted 167 new matches to 'matches' table
+2025-01-18 19:33:04 - INFO - Inserted 221 new rows to 'scraped_data' table
+2025-01-18 19:33:04 - INFO - Found 0 new matches with arbitrage
+2025-01-18 19:33:04 - INFO - No arbitrage found.
+2025-01-18 19:46:47 - INFO - Started scraping topsport
+2025-01-18 19:46:55 - INFO - Scraped 6 NBA matches
+2025-01-18 19:46:55 - INFO - Scraped 14 Eurolyga matches
+2025-01-18 19:46:55 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:46:55 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:46:55 - INFO - Scraped 4 NFL matches
+2025-01-18 19:46:55 - INFO - Scraped 17 NHL matches
+2025-01-18 19:46:55 - INFO - Scraped 36 Tenisas matches
+2025-01-18 19:46:55 - INFO - Scraped 31 Tinklinis matches
+2025-01-18 19:46:55 - INFO - Started scraping 7bet
+2025-01-18 19:47:03 - INFO - Scraped 6 NBA matches
+2025-01-18 19:47:03 - INFO - No matches found in Eurolyga
+2025-01-18 19:47:03 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:47:03 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:47:03 - INFO - Scraped 4 NFL matches
+2025-01-18 19:47:03 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:47:03 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:47:03 - INFO - Scraped 6 Tinklinis matches
+2025-01-18 19:47:03 - INFO - Started scraping betsafe
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - WARNING - Error: 500
+2025-01-18 19:47:12 - INFO - Scraped 6 NBA matches
+2025-01-18 19:47:12 - INFO - No matches found in Eurolyga
+2025-01-18 19:47:12 - INFO - No matches found in UEFA
+2025-01-18 19:47:12 - INFO - No matches found in NFL
+2025-01-18 19:47:12 - INFO - Scraped 14 NHL matches
+2025-01-18 19:47:12 - INFO - No matches found in AHL
+2025-01-18 19:47:12 - INFO - No matches found in Tenisas
+2025-01-18 19:47:12 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:47:12 - INFO - No matches found in Tinklinis
+2025-01-18 19:47:12 - INFO - Started scraping optibet
+2025-01-18 19:47:21 - INFO - Scraped 6 NBA matches
+2025-01-18 19:47:21 - INFO - No matches found in Eurolyga
+2025-01-18 19:47:21 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:47:21 - INFO - Scraped 4 NFL matches
+2025-01-18 19:47:21 - INFO - Scraped 15 NHL matches
+2025-01-18 19:47:21 - INFO - Scraped 14 AHL matches
+2025-01-18 19:47:21 - INFO - Scraped 10 Tinklinis matches
+2025-01-18 19:47:21 - INFO - Scraped 3 Tinklinis (F) matches
+2025-01-18 19:47:21 - INFO - Started merging dataframes
+2025-01-18 19:47:21 - INFO - Merged 220 matches
+2025-01-18 19:47:21 - INFO - Started checking arbitrages
+2025-01-18 19:47:21 - INFO - Found arbitrages for 1 matches
+2025-01-18 19:47:21 - INFO - Starting database connection
+2025-01-18 19:47:31 - INFO - Inserted 8 new matches to 'matches' table
+2025-01-18 19:47:31 - INFO - Inserted 220 new rows to 'scraped_data' table
+2025-01-18 19:47:31 - INFO - Found 1 new matches with arbitrage
+2025-01-18 19:47:31 - INFO - No arbitrage found.
+2025-01-18 19:51:00 - INFO - Started scraping betsafe
+2025-01-18 19:51:00 - INFO - Scraped 6 NBA matches
+2025-01-18 19:51:00 - INFO - No matches found in Eurolyga
+2025-01-18 19:51:00 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:51:01 - INFO - No matches found in NFL
+2025-01-18 19:51:01 - INFO - Scraped 14 NHL matches
+2025-01-18 19:51:01 - INFO - No matches found in AHL
+2025-01-18 19:51:01 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:51:01 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:51:01 - INFO - No matches found in Tinklinis
+2025-01-18 19:52:10 - INFO - Started scraping betsafe
+2025-01-18 19:52:10 - INFO - Scraped 6 NBA matches
+2025-01-18 19:52:11 - INFO - No matches found in Eurolyga
+2025-01-18 19:52:11 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:52:11 - INFO - Scraped 4 NFL matches
+2025-01-18 19:52:11 - INFO - Scraped 14 NHL matches
+2025-01-18 19:52:11 - INFO - No matches found in AHL
+2025-01-18 19:52:12 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:52:12 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:52:12 - INFO - No matches found in Tinklinis
+2025-01-18 19:52:35 - INFO - Started scraping topsport
+2025-01-18 19:52:44 - INFO - Scraped 6 NBA matches
+2025-01-18 19:52:44 - INFO - Scraped 14 Eurolyga matches
+2025-01-18 19:52:44 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:52:44 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:52:44 - INFO - Scraped 4 NFL matches
+2025-01-18 19:52:44 - INFO - Scraped 17 NHL matches
+2025-01-18 19:52:44 - INFO - Scraped 36 Tenisas matches
+2025-01-18 19:52:44 - INFO - Scraped 31 Tinklinis matches
+2025-01-18 19:52:44 - INFO - Started scraping 7bet
+2025-01-18 19:52:51 - INFO - Scraped 6 NBA matches
+2025-01-18 19:52:51 - INFO - No matches found in Eurolyga
+2025-01-18 19:52:51 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:52:51 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 19:52:51 - INFO - Scraped 4 NFL matches
+2025-01-18 19:52:51 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:52:51 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:52:51 - INFO - Scraped 6 Tinklinis matches
+2025-01-18 19:52:51 - INFO - Started scraping betsafe
+2025-01-18 19:53:00 - WARNING - Error: 500
+2025-01-18 19:53:00 - WARNING - Error: 500
+2025-01-18 19:53:00 - WARNING - Error: 500
+2025-01-18 19:53:00 - INFO - Scraped 6 NBA matches
+2025-01-18 19:53:00 - INFO - No matches found in Eurolyga
+2025-01-18 19:53:00 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:53:00 - INFO - Scraped 4 NFL matches
+2025-01-18 19:53:00 - INFO - Scraped 14 NHL matches
+2025-01-18 19:53:00 - INFO - No matches found in AHL
+2025-01-18 19:53:00 - INFO - Scraped 8 Tenisas matches
+2025-01-18 19:53:00 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 19:53:00 - INFO - No matches found in Tinklinis
+2025-01-18 19:53:00 - INFO - Started scraping optibet
+2025-01-18 19:53:08 - INFO - Scraped 6 NBA matches
+2025-01-18 19:53:08 - INFO - No matches found in Eurolyga
+2025-01-18 19:53:08 - INFO - Scraped 18 UEFA matches
+2025-01-18 19:53:08 - INFO - Scraped 4 NFL matches
+2025-01-18 19:53:08 - INFO - Scraped 15 NHL matches
+2025-01-18 19:53:08 - INFO - Scraped 14 AHL matches
+2025-01-18 19:53:08 - INFO - Scraped 10 Tinklinis matches
+2025-01-18 19:53:08 - INFO - Scraped 3 Tinklinis (F) matches
+2025-01-18 19:53:08 - INFO - Started merging dataframes
+2025-01-18 19:53:09 - INFO - Merged 221 matches
+2025-01-18 19:53:09 - INFO - Started checking arbitrages
+2025-01-18 19:53:09 - INFO - Found arbitrages for 0 matches
+2025-01-18 19:53:09 - INFO - Starting database connection
+2025-01-18 19:53:16 - INFO - Inserted 7 new matches to 'matches' table
+2025-01-18 19:53:16 - INFO - Inserted 221 new rows to 'scraped_data' table
+2025-01-18 19:53:16 - INFO - Found 0 new matches with arbitrage
+2025-01-18 19:53:16 - INFO - No arbitrage found.
+2025-01-18 20:05:34 - INFO - Started scraping betsafe
+2025-01-18 20:05:34 - INFO - Scraped 5 NBA matches
+2025-01-18 20:05:35 - INFO - No matches found in Eurolyga
+2025-01-18 20:05:35 - INFO - Scraped 18 UEFA matches
+2025-01-18 20:05:35 - INFO - Scraped 4 NFL matches
+2025-01-18 20:05:35 - INFO - Scraped 14 NHL matches
+2025-01-18 20:05:35 - INFO - Scraped 11 AHL matches
+2025-01-18 20:05:35 - INFO - Scraped 8 Tenisas matches
+2025-01-18 20:05:35 - INFO - Scraped 8 Tenisas matches
+2025-01-18 20:05:36 - INFO - No matches found in Tinklinis
+2025-01-18 20:06:08 - INFO - Started scraping topsport
+2025-01-18 20:06:16 - INFO - Scraped 6 NBA matches
+2025-01-18 20:06:16 - INFO - Scraped 14 Eurolyga matches
+2025-01-18 20:06:16 - INFO - Scraped 18 UEFA matches
+2025-01-18 20:06:16 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 20:06:16 - INFO - Scraped 4 NFL matches
+2025-01-18 20:06:16 - INFO - Scraped 17 NHL matches
+2025-01-18 20:06:16 - INFO - Scraped 36 Tenisas matches
+2025-01-18 20:06:16 - INFO - Scraped 24 Tinklinis matches
+2025-01-18 20:06:16 - INFO - Started scraping 7bet
+2025-01-18 20:06:23 - INFO - Scraped 5 NBA matches
+2025-01-18 20:06:23 - INFO - No matches found in Eurolyga
+2025-01-18 20:06:23 - INFO - Scraped 18 UEFA matches
+2025-01-18 20:06:23 - INFO - Scraped 8 UEFA Konf. matches
+2025-01-18 20:06:23 - INFO - Scraped 4 NFL matches
+2025-01-18 20:06:23 - INFO - Scraped 8 Tenisas matches
+2025-01-18 20:06:23 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 20:06:23 - INFO - Scraped 5 Tinklinis matches
+2025-01-18 20:06:23 - INFO - Started scraping betsafe
+2025-01-18 20:06:32 - WARNING - Error: 500
+2025-01-18 20:06:32 - WARNING - Error: 500
+2025-01-18 20:06:32 - INFO - Scraped 5 NBA matches
+2025-01-18 20:06:32 - INFO - No matches found in Eurolyga
+2025-01-18 20:06:32 - INFO - Scraped 18 UEFA matches
+2025-01-18 20:06:32 - INFO - Scraped 4 NFL matches
+2025-01-18 20:06:32 - INFO - Scraped 14 NHL matches
+2025-01-18 20:06:32 - INFO - Scraped 11 AHL matches
+2025-01-18 20:06:32 - INFO - Scraped 8 Tenisas matches
+2025-01-18 20:06:32 - INFO - Scraped 8 Tenisas (F) matches
+2025-01-18 20:06:32 - INFO - No matches found in Tinklinis
+2025-01-18 20:06:32 - INFO - Started scraping optibet
+2025-01-18 20:06:41 - INFO - Scraped 5 NBA matches
+2025-01-18 20:06:41 - INFO - No matches found in Eurolyga
+2025-01-18 20:06:41 - INFO - Scraped 18 UEFA matches
+2025-01-18 20:06:41 - INFO - Scraped 4 NFL matches
+2025-01-18 20:06:41 - INFO - Scraped 15 NHL matches
+2025-01-18 20:06:41 - INFO - Scraped 14 AHL matches
+2025-01-18 20:06:41 - INFO - Scraped 10 Tinklinis matches
+2025-01-18 20:06:41 - INFO - Scraped 2 Tinklinis (F) matches
+2025-01-18 20:06:41 - INFO - Started merging dataframes
+2025-01-18 20:06:41 - INFO - Merged 222 matches
+2025-01-18 20:06:41 - INFO - Started checking arbitrages
+2025-01-18 20:06:41 - INFO - Found arbitrages for 0 matches
+2025-01-18 20:06:41 - INFO - Starting database connection
+2025-01-18 20:06:48 - INFO - Inserted 18 new matches to 'matches' table
+2025-01-18 20:06:48 - INFO - Inserted 222 new rows to 'scraped_data' table
+2025-01-18 20:06:48 - INFO - Found 0 new matches with arbitrage
+2025-01-18 20:06:48 - INFO - No arbitrage found.
